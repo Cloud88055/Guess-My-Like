@@ -20,8 +20,11 @@
       border-radius: 14px;
       box-shadow: 0 8px 30px rgba(0,0,0,0.08);
     }
-    h1 {
+    h1, h2 {
       margin-top: 0;
+    }
+    p {
+      line-height: 1.7;
     }
     .app-box {
       background: #eef2ff;
@@ -29,7 +32,7 @@
       border-radius: 10px;
       margin-top: 20px;
     }
-    a.button {
+    .button {
       display: inline-block;
       margin-top: 10px;
       padding: 10px 16px;
@@ -37,6 +40,14 @@
       color: white;
       text-decoration: none;
       border-radius: 6px;
+    }
+    .links {
+      margin-top: 24px;
+    }
+    .links a {
+      margin-right: 16px;
+      color: #2563eb;
+      text-decoration: none;
     }
     footer {
       margin-top: 40px;
@@ -50,32 +61,37 @@
     <h1>CloudForm</h1>
 
     <p>
-      CloudForm is a platform that develops interactive web applications and social games.
-      Our goal is to create engaging experiences that connect users through shared content.
+      CloudForm develops interactive web applications and social games.
+      Our goal is to create engaging digital experiences that connect users through shared content.
     </p>
 
     <div class="app-box">
       <h2>Guess My Like</h2>
       <p>
-        Guess My Like is a social game where players try to guess who among them liked a specific
-        YouTube video or Spotify track.
+        Guess My Like is a social game developed by CloudForm where players try to guess
+        who among them liked a specific YouTube video or Spotify track.
       </p>
       <p>
-        Users sign in with Google to securely access only the necessary data required to enable the game experience.
+        To enable the game experience, users may sign in with Google so the application can
+        securely access only the data necessary for its core functionality.
       </p>
     </div>
 
     <h2>Google User Data</h2>
     <p>
-      CloudForm applications use Google OAuth to request access only to the data necessary for their functionality.
-      Data is used exclusively to provide features to the authenticated user.
+      CloudForm applications use Google OAuth to request access only to the information
+      required to provide their intended features. Google user data is used solely for
+      app functionality and is not sold or shared with third parties.
     </p>
 
-    <a class="button" href="/privacy.html">Privacy Policy</a>
+    <div class="links">
+      <a class="button" href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms of Service</a>
+    </div>
 
     <footer>
       <p>Contact: claudioformicola888@gmail.com</p>
-      <p>© 2026 CloudForm</p>
+      <p>© 2026 CloudForm. All rights reserved.</p>
     </footer>
   </div>
 </body>
