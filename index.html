@@ -1,55 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Guess My Like</title>
-
-    <meta name="google-site-verification" content="qW3jwBqAx6lg3E73s_aS2U0xChWd8jq64FLfhJXeCro" />
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f9f9f9;
-            padding: 50px;
-        }
-        h1 {
-            color: #FF6F61;
-        }
-        a.button {
-            display: inline-block;
-            margin: 10px;
-            padding: 12px 24px;
-            text-decoration: none;
-            background-color: #FF6F61;
-            color: white;
-            border-radius: 8px;
-            transition: background-color 0.3s;
-        }
-        a.button:hover {
-            background-color: #FF3B2E;
-        }
-        a.text-link {
-            color: #0000EE;
-            text-decoration: underline;
-            margin: 0 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CloudForm</title>
+  <meta name="description" content="CloudForm builds interactive web applications and social games." />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f7fb;
+      color: #222;
+    }
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 14px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    }
+    h1 {
+      margin-top: 0;
+    }
+    .app-box {
+      background: #eef2ff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 16px;
+      background: #111827;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
 </head>
-
 <body>
+  <div class="container">
+    <h1>CloudForm</h1>
 
-<h1>Guess My Like</h1>
+    <p>
+      CloudForm is a platform that develops interactive web applications and social games.
+      Our goal is to create engaging experiences that connect users through shared content.
+    </p>
 
-<p>Guess My Like is a party game where players try to guess the tastes and preferences of their friends.</p>
+    <div class="app-box">
+      <h2>Guess My Like</h2>
+      <p>
+        Guess My Like is a social game where players try to guess who among them liked a specific
+        YouTube video or Spotify track.
+      </p>
+      <p>
+        Users sign in with Google to securely access only the necessary data required to enable the game experience.
+      </p>
+    </div>
 
-<p>
-    <a href="privacy.html" class="text-link">Privacy Policy</a> | 
-    <a href="terms.html" class="text-link">Terms of Service</a>
-</p>
+    <h2>Google User Data</h2>
+    <p>
+      CloudForm applications use Google OAuth to request access only to the data necessary for their functionality.
+      Data is used exclusively to provide features to the authenticated user.
+    </p>
 
-<a href="privacy.html" class="button">Privacy Policy</a>
-<a href="terms.html" class="button">Terms of Service</a>
+    <a class="button" href="/privacy.html">Privacy Policy</a>
 
+    <footer>
+      <p>Contact: cloudform.app@gmail.com</p>
+      <p>© 2026 CloudForm</p>
+    </footer>
+  </div>
 </body>
 </html>
